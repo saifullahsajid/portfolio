@@ -1,0 +1,23 @@
+[
+    {
+        name: "",
+        about: "",
+        averageQtyPerDay: 0,
+        qtyUnit: "",
+        qtyForMen: 0,
+        qtyForWomen: 0,
+        qtyForChildren: 0,
+        qtyStartRange: 0,
+        qtyEndRange: 0,
+        advantages: "",
+        ifDeficient: "",
+        ifAbundant: "",
+        foodItems: {
+            name: "",
+            photo: "",
+            about: "",
+            nutrientQtyPerServing: "",
+            other: ""
+        }
+    }
+]
