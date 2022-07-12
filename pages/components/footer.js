@@ -1,11 +1,17 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useRouter } from "next/router";
 import {
-  faSearch,
-  faAmbulance,
-  faAnchor,
-} from "@fortawesome/free-solid-svg-icons";
+  FaApple,
+  FaLinkedinIn,
+  FaGithub,
+  FaEnvelope,
+  FaBug,
+  FaBezierCurve,
+  FaMobileAlt,
+  FaBriefcase,
+} from "react-icons/fa";
 
 export default function Footer() {
+  const router = useRouter();
   return (
     <footer class="text-gray-600 bg-gray-900 font-poppins">
       <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
@@ -24,7 +30,7 @@ export default function Footer() {
           </svg> */}
         {/* <span class="ml-3 text-xl">Tailblocks</span> */}
         {/* </a> */}
-        <p class="text-sm text-gray-300 sm:ml-4 sm:pl-4 sm:py-2 sm:mt-0 mt-4">
+        <p class="text-sm text-gray-300 sm:mx-auto sm:py-2 sm:mt-0 mt-4 pr-6 text-center">
           © 2022 Saif Ullah Sajid — Made with 💚 by me using Next.js and
           Tailwind —
           <a
@@ -36,34 +42,25 @@ export default function Footer() {
             @saifcodes
           </a>
         </p>
-        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <span class="inline-flex sm:mx-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a
             class="text-gray-300"
             href="https://apps.apple.com/us/developer/saif-ullah-sajid/id1527861472"
           >
-            <img
-              class="object-cover object-center rounded-3xl h-5 w-5 ml-5"
-              alt="hero"
-              src="/images/apple.png"
-            />
+            <FaApple class="w-5 h-5 text-gray-300 mr-6" />
           </a>
           <a
             class="text-gray-300"
             href="https://pk.linkedin.com/in/saifsajid99"
           >
-            <img
-              class="object-cover object-center rounded-3xl h-5 w-5 ml-5"
-              alt="hero"
-              src="/images/linkedin.png"
-            />
+            <FaLinkedinIn class="w-5 h-5 text-gray-300 mr-6" />
           </a>
           <a class="text-gray-300" href="https://github.com/saifullahsajid">
-            <img
-              class="object-cover object-center rounded-3xl h-5 w-5 ml-5"
-              alt="hero"
-              src="/images/github.png"
-            />
+            <FaGithub class="w-5 h-5 text-gray-300 mr-6" />
           </a>
+          <button onClick={() => router.push("mailto:saifbinsajid7@gmail.com")}>
+            <FaEnvelope class="w-5 h-5 text-gray-300" />
+          </button>
         </span>
       </div>
     </footer>

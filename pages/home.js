@@ -18,13 +18,13 @@ export default function Home() {
       <section class="text-gray-600 bg-gray-900 font-poppins">
         <div class="container mx-auto flex px-5 py-6 md:flex-row flex-col items-center">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
-            {/* <div class=" bg-gray-800 rounded-full h-96 w-96"> */}
-            <img
-              class="object-cover object-center rounded-full mx-auto"
-              alt="hero"
-              src="/saif.jpeg"
-            />
-            {/* </div> */}
+            <div class="bg-gray-800 rounded-full mx-auto p-6 mx-auto">
+              <img
+                class="object-cover object-center rounded-full mx-auto"
+                alt="hero"
+                src="/saif.jpeg"
+              />
+            </div>
           </div>
           <div class="lg:flex-grow md:w-1/2  md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class=" sm:text-3xl text-2xl mb-4 text-white">
