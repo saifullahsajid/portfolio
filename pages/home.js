@@ -119,6 +119,32 @@ export default function Home() {
                   Therappy provides a secure online platform for psychological
                   counsling for therapists.
                 </p>
+                <button
+                  onClick={() =>
+                    window.open(
+                      "https://apps.apple.com/us/app/therappy-online-counseling/id1557619663",
+                      "_blank",
+                      "noopener,noreferrer"
+                    )
+                  }
+                  class="bg-gray-700 mt-4 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-700 hover:bg-opacity-50 focus:outline-none"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    class="w-6 h-6"
+                    viewBox="0 0 305 305"
+                  >
+                    <path d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z"></path>
+                    <path d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z"></path>
+                  </svg>
+                  <span class="ml-4 flex items-start flex-col leading-none">
+                    <span class="text-xs text-gray-500 mb-1">
+                      Download on the
+                    </span>
+                    <span class="title-font font-medium">App Store</span>
+                  </span>
+                </button>
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
@@ -138,6 +164,32 @@ export default function Home() {
                   Therappy allows you to book & conduct online counseling
                   sessions without leaving the comfort of your home.
                 </p>
+                <button
+                  onClick={() =>
+                    window.open(
+                      "https://apps.apple.com/us/app/therappy-for-therapists/id1557247533",
+                      "_blank",
+                      "noopener,noreferrer"
+                    )
+                  }
+                  class="bg-gray-700 mt-4 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-700 hover:bg-opacity-50 focus:outline-none"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    class="w-6 h-6"
+                    viewBox="0 0 305 305"
+                  >
+                    <path d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z"></path>
+                    <path d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z"></path>
+                  </svg>
+                  <span class="ml-4 flex items-start flex-col leading-none">
+                    <span class="text-xs text-gray-500 mb-1">
+                      Download on the
+                    </span>
+                    <span class="title-font font-medium">App Store</span>
+                  </span>
+                </button>
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
@@ -157,6 +209,32 @@ export default function Home() {
                   To empower you to discover and experience real life social
                   opportunities within your network.
                 </p>
+                <button
+                  onClick={() =>
+                    window.open(
+                      "https://apps.apple.com/us/app/private-island/id1494390929",
+                      "_blank",
+                      "noopener,noreferrer"
+                    )
+                  }
+                  class="bg-gray-700 mt-4 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-700 hover:bg-opacity-50 focus:outline-none"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    class="w-6 h-6"
+                    viewBox="0 0 305 305"
+                  >
+                    <path d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z"></path>
+                    <path d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z"></path>
+                  </svg>
+                  <span class="ml-4 flex items-start flex-col leading-none">
+                    <span class="text-xs text-gray-500 mb-1">
+                      Download on the
+                    </span>
+                    <span class="title-font font-medium">App Store</span>
+                  </span>
+                </button>
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
@@ -176,25 +254,32 @@ export default function Home() {
                   A platform for the iOS developer community to explore new
                   APIs/frameworks, jobs & developers.
                 </p>
-              </div>
-            </div>
-            <div class="xl:w-1/4 md:w-1/2 p-4">
-              <div class="bg-gray-700 bg-opacity-40 p-6 rounded-3xl">
-                <img
-                  class="h-60 rounded-3xl w-full object-cover object-center mb-6"
-                  src="https://scontent.fpew2-1.fna.fbcdn.net/v/t1.6435-9/78261458_2508805532734707_3603850587843592192_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=973b4a&_nc_ohc=pUmrNXda3o4AX9DnurL&_nc_ht=scontent.fpew2-1.fna&oh=00_AT9tpoIKSz6klPMYcRFvZ3VgiUO2WuJRjyl7Pr1DIHVRjg&oe=62ECDF04"
-                  alt="content"
-                />
-                <h3 class="tracking-widest text-green-400 text-xs font-medium title-font">
-                  iOS
-                </h3>
-                <h2 class="text-lg text-white font-medium title-font mb-4">
-                  ConectApp
-                </h2>
-                <p class="leading-relaxed text-base">
-                  A platform to find the best fitness trainers and events in
-                  Australia to stay healthy and fit forever.
-                </p>
+                <button
+                  onClick={() =>
+                    window.open(
+                      "https://apps.apple.com/pk/app/swifthub-learn-build-share/id1539940969",
+                      "_blank",
+                      "noopener,noreferrer"
+                    )
+                  }
+                  class="bg-gray-700 mt-4 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-700 hover:bg-opacity-50 focus:outline-none"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    class="w-6 h-6"
+                    viewBox="0 0 305 305"
+                  >
+                    <path d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z"></path>
+                    <path d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z"></path>
+                  </svg>
+                  <span class="ml-4 flex items-start flex-col leading-none">
+                    <span class="text-xs text-gray-500 mb-1">
+                      Download on the
+                    </span>
+                    <span class="title-font font-medium">App Store</span>
+                  </span>
+                </button>
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
@@ -214,6 +299,32 @@ export default function Home() {
                   Helping preschool kids learn alphabets, counting, animals and
                   color difference in an easy and fun way.
                 </p>
+                <button
+                  onClick={() =>
+                    window.open(
+                      "https://apps.apple.com/pk/app/unicorn-educating-kids/id1625078983",
+                      "_blank",
+                      "noopener,noreferrer"
+                    )
+                  }
+                  class="bg-gray-700 mt-4 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-700 hover:bg-opacity-50 focus:outline-none"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    class="w-6 h-6"
+                    viewBox="0 0 305 305"
+                  >
+                    <path d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z"></path>
+                    <path d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z"></path>
+                  </svg>
+                  <span class="ml-4 flex items-start flex-col leading-none">
+                    <span class="text-xs text-gray-500 mb-1">
+                      Download on the
+                    </span>
+                    <span class="title-font font-medium">App Store</span>
+                  </span>
+                </button>
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
@@ -232,6 +343,51 @@ export default function Home() {
                 <p class="leading-relaxed text-base">
                   For family caregivers from family caregivers based on real
                   world findings and clinical studies.
+                </p>
+                <button
+                  onClick={() =>
+                    window.open(
+                      "https://apps.apple.com/sa/app/yaad-memory-book/id1569338089",
+                      "_blank",
+                      "noopener,noreferrer"
+                    )
+                  }
+                  class="bg-gray-700 mt-4 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-700 hover:bg-opacity-50 focus:outline-none"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    class="w-6 h-6"
+                    viewBox="0 0 305 305"
+                  >
+                    <path d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z"></path>
+                    <path d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z"></path>
+                  </svg>
+                  <span class="ml-4 flex items-start flex-col leading-none">
+                    <span class="text-xs text-gray-500 mb-1">
+                      Download on the
+                    </span>
+                    <span class="title-font font-medium">App Store</span>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-700 bg-opacity-40 p-6 rounded-3xl">
+                <img
+                  class="h-60 rounded-3xl w-full object-cover object-center mb-6"
+                  src="https://scontent.fpew2-1.fna.fbcdn.net/v/t1.6435-9/78261458_2508805532734707_3603850587843592192_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=973b4a&_nc_ohc=pUmrNXda3o4AX9DnurL&_nc_ht=scontent.fpew2-1.fna&oh=00_AT9tpoIKSz6klPMYcRFvZ3VgiUO2WuJRjyl7Pr1DIHVRjg&oe=62ECDF04"
+                  alt="content"
+                />
+                <h3 class="tracking-widest text-green-400 text-xs font-medium title-font">
+                  iOS
+                </h3>
+                <h2 class="text-lg text-white font-medium title-font mb-4">
+                  ConectApp
+                </h2>
+                <p class="leading-relaxed text-base">
+                  A platform to find the best fitness trainers and events in
+                  Australia to stay healthy and fit forever.
                 </p>
               </div>
             </div>
