@@ -17,7 +17,7 @@ export default function Home() {
     <div>
       <section class="text-gray-600 bg-gray-900 font-poppins">
         <div class="container mx-auto flex px-5 py-6 md:flex-row flex-col items-center">
-          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
+          <div class="lg:max-w-lg lg:w-1/3 md:w-1/2 w-4/6 md:mb-0 mb-10">
             <div class="bg-gray-800 rounded-full mx-auto p-6 mx-auto">
               <img
                 class="object-cover object-center rounded-full mx-auto"
@@ -396,7 +396,7 @@ export default function Home() {
       </section>
 
       {/* static numbers */}
-      <section class="text-gray-400 bg-gray-900 body-font">
+      <section class="text-gray-400 bg-gray-900 font-poppins">
         <div class="container px-5 py-12 mt-12 mx-auto">
           <div class="flex flex-wrap -m-4 text-center">
             <div class="p-4 md:w-1/4 sm:w-1/2 w-full">

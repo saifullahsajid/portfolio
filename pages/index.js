@@ -24,6 +24,10 @@ export default function Index() {
           rel="stylesheet"
         ></link>
         <link
+          href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
+          rel="stylesheet"
+        ></link>
+        <link
           href="https://fonts.googleapis.com/css2?family=Poppins&family=Smooch&display=swap"
           rel="stylesheet"
         ></link>
