@@ -10,9 +10,9 @@ module.exports = {
         "nav-menu-selected-item-color": "#7F8184",
       },
       fontFamily: {
-        // poppins: ["Poppins"],
+        poppins: ["Poppins"],
         smooch: ["Smooch"],
-        poppins: ["Space Mono"],
+        // poppins: ["Space Mono"],
       },
     },
   },
