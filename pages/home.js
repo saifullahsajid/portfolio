@@ -509,7 +509,7 @@ export default function Home() {
               <div class="w-16 h-1 rounded-full bg-green-500 inline-flex"></div>
             </div>
           </div>
-          <div class="flex flex-wrap -m-4 scroll-auto">
+          <div class="flex flex-wrap -m-4">
             <div class="p-4 lg:w-1/3">
               <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                 <img
