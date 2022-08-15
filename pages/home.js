@@ -585,7 +585,7 @@ export default function Home() {
                   <h2 class="title-font font-medium text-lg text-white">
                     Aniruddha Sreenath
                   </h2>
-                  <h3 class="text-gray-500 mb-3">Co-founder at ConnectApp</h3>
+                  <h3 class="text-gray-500 mb-3">Co-founder at ConectApp</h3>
 
                   <span class="inline-flex">
                     <a
