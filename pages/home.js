@@ -510,7 +510,7 @@ export default function Home() {
             </div>
           </div>
           <div class="flex flex-wrap -m-4">
-            <div class="p-4 lg:w-1/3">
+            <div class="p-4 lg:w-1/3 mx-auto m-4">
               <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                 <img
                   alt="team"
@@ -541,7 +541,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div class="p-4 lg:w-1/3">
+            <div class="p-4 lg:w-1/3 mx-auto m-4">
               <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                 <img
                   alt="team"
@@ -574,7 +574,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div class="p-4 lg:w-1/3">
+            <div class="p-4 lg:w-1/3 mx-auto m-4">
               <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                 <img
                   alt="team"
