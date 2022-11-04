@@ -387,7 +387,7 @@ export default function Home() {
               <div class="bg-gray-700 bg-opacity-40 p-6 rounded-3xl">
                 <img
                   class="h-60 rounded-3xl w-full object-cover object-center mb-6"
-                  src="https://scontent.fpew2-1.fna.fbcdn.net/v/t1.6435-9/78261458_2508805532734707_3603850587843592192_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=973b4a&_nc_ohc=pUmrNXda3o4AX9DnurL&_nc_ht=scontent.fpew2-1.fna&oh=00_AT9tpoIKSz6klPMYcRFvZ3VgiUO2WuJRjyl7Pr1DIHVRjg&oe=62ECDF04"
+                  src="/conect.png"
                   alt="content"
                 />
                 <h3 class="tracking-widest text-green-400 text-xs font-medium title-font">
@@ -515,7 +515,7 @@ export default function Home() {
                 <img
                   alt="team"
                   class="flex-shrink-0 rounded-full w-24 h-24 object-cover object-center sm:mb-0 mb-4"
-                  src="https://media-exp1.licdn.com/dms/image/C4D03AQFRHdTlP5V78w/profile-displayphoto-shrink_400_400/0/1649276906391?e=1665014400&v=beta&t=zzAhNaS55CrcTDezzP5vk3UzPNmvtcXDMIsSdnDzh9Y"
+                  src="/nicholas.jpeg"
                 />
                 <div class="flex-grow sm:pl-8">
                   <h2 class="title-font font-medium text-lg text-white">
@@ -546,7 +546,7 @@ export default function Home() {
                 <img
                   alt="team"
                   class="flex-shrink-0 rounded-full w-24 h-24 object-cover object-center sm:mb-0 mb-4"
-                  src="https://media-exp1.licdn.com/dms/image/C5603AQFj1QjAGfNOjw/profile-displayphoto-shrink_400_400/0/1517494754319?e=1665014400&v=beta&t=_esJ_nDBxKLpcq8UO9YIGnNcYtX1mZy6VZUMp_wH9pI"
+                  src="/waleed.jpg"
                 />
                 <div class="flex-grow sm:pl-8">
                   <h2 class="title-font font-medium text-lg text-white">
@@ -579,7 +579,7 @@ export default function Home() {
                 <img
                   alt="team"
                   class="flex-shrink-0 rounded-full w-24 h-24 object-cover object-center sm:mb-0 mb-4"
-                  src="https://media-exp1.licdn.com/dms/image/C5603AQHqE5hEeYzp9A/profile-displayphoto-shrink_400_400/0/1593413709464?e=1665014400&v=beta&t=QglR4vQPS3W7nEtRR1SxMuPfLirBu0cChQUNmZrR6H8"
+                  src="/ani.jpeg"
                 />
                 <div class="flex-grow sm:pl-8">
                   <h2 class="title-font font-medium text-lg text-white">
