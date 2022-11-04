@@ -521,8 +521,8 @@ export default function Home() {
                   <h2 class="title-font font-medium text-lg text-white">
                     Nicholas Duro
                   </h2>
-                  <h3 class="text-gray-500 mb-3">Founder at Private Island</h3>
-
+                  <h3 class="text-gray-500">Founder at Private Island</h3>
+                  <h4 class="text-gray-500 mb-2">United States</h4>
                   <span class="inline-flex">
                     <a
                       class="text-gray-300"
@@ -552,10 +552,10 @@ export default function Home() {
                   <h2 class="title-font font-medium text-lg text-white">
                     Waleed Waseem
                   </h2>
-                  <h3 class="text-gray-500 mb-3">
+                  <h3 class="text-gray-500">
                     Founder and CEO at Productbox
                   </h3>
-
+                  <h4 class="text-gray-500 mb-2">Pakistan</h4>
                   <span class="inline-flex">
                     <a
                       class="text-gray-300"
@@ -585,8 +585,8 @@ export default function Home() {
                   <h2 class="title-font font-medium text-lg text-white">
                     Aniruddha Sreenath
                   </h2>
-                  <h3 class="text-gray-500 mb-3">Co-founder at ConectApp</h3>
-
+                  <h3 class="text-gray-500">Co-founder at ConectApp</h3>
+                  <h4 class="text-gray-500 mb-2">Australia</h4>
                   <span class="inline-flex">
                     <a
                       class="text-gray-300"
