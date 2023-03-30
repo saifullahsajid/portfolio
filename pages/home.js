@@ -101,7 +101,7 @@ export default function Home() {
 
       <section class="text-gray-400 font-poppins bg-gray-900">
         <div class="container px-5 py-12 mt-12 mx-auto">
-          <div class="text-center mb-20">
+          {/* <div class="text-center mb-20">
             <h1 class="sm:text-3xl text-2xl font-medium title-font text-white mb-4">
               PORTFOLIO
             </h1>
@@ -111,9 +111,9 @@ export default function Home() {
             <div class="flex mt-6 justify-center">
               <div class="w-16 h-1 rounded-full bg-green-500 inline-flex"></div>
             </div>
-          </div>
+          </div> */}
           <div class="flex flex-wrap -m-4">
-            <div class="xl:w-1/4 md:w-1/2 p-4">
+            {/* <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="bg-gray-700 bg-opacity-40 p-6 rounded-3xl">
                 <img
                   class="h-60 rounded-3xl w-full object-cover object-center mb-6"
@@ -247,7 +247,7 @@ export default function Home() {
                   </span>
                 </button>
               </div>
-            </div>
+            </div> */}
             <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="bg-gray-700 bg-opacity-40 p-6 rounded-3xl">
                 <img
@@ -338,7 +338,7 @@ export default function Home() {
                 </button>
               </div>
             </div>
-            <div class="xl:w-1/4 md:w-1/2 p-4">
+            {/* <div class="xl:w-1/4 md:w-1/2 p-4">
               <div class="bg-gray-700 bg-opacity-40 p-6 rounded-3xl">
                 <img
                   class="h-60 rounded-3xl w-full object-cover object-center mb-6"
@@ -401,13 +401,13 @@ export default function Home() {
                   Australia to stay healthy and fit forever.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
 
       {/* static numbers */}
-      <section class="text-gray-400 bg-gray-900 font-poppins">
+      {/* <section class="text-gray-400 bg-gray-900 font-poppins">
         <div class="container px-5 py-12 mt-12 mx-auto">
           <div class="flex flex-wrap -m-4 text-center">
             <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
@@ -494,9 +494,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section class="text-gray-400 bg-gray-900 font-poppins">
+      {/* <section class="text-gray-400 bg-gray-900 font-poppins">
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
             <h1 class="sm:text-3xl text-2xl font-medium title-font text-white mb-4">
@@ -604,8 +604,8 @@ export default function Home() {
                   </span>
                 </div>
               </div>
-            </div>
-            {/* <div class="p-4 lg:w-1/3">
+            </div> */}
+      {/* <div class="p-4 lg:w-1/3">
               <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                 <img
                   alt="team"
@@ -662,11 +662,11 @@ export default function Home() {
                 </div>
               </div>
             </div> */}
-          </div>
+      {/* </div>
         </div>
-      </section>
+      </section> */}
 
-      <section class="text-gray-400 bg-gray-900 font-poppins">
+      {/* <section class="text-gray-400 bg-gray-900 font-poppins">
         <div class="container px-5 py-12 mt-12 mx-auto">
           <div class="text-center mb-20">
             <h1 class="sm:text-3xl text-2xl font-medium title-font text-white mb-4">
@@ -761,7 +761,7 @@ export default function Home() {
             Get a Qoute
           </button>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
